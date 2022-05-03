@@ -12,7 +12,7 @@ const app = express();
 const server = http.createServer(app);
 const songs = require('./app.js'); //<-- Importing the list of albums from app.js
 app.get('/', (req, res) => {
-    res.send(`This is test for MP`);
+    res.send(`This is the test for MP`);
 });
 //::::::::::::::::::::::::::FOR UNLINKED LIST OF ALBUMS::::::::::::::::::::::::::::::::::::::::::::
 // app.get(‘/albums’, (req, res) => {
